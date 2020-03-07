@@ -1,4 +1,4 @@
-package com.farmacia.farmacia.model;
+package com.farmacia.farmacia.dominios;
 
 import javax.persistence.*;
 import java.util.Date;

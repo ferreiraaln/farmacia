@@ -1,4 +1,4 @@
-package com.farmacia.farmacia.model;
+package com.farmacia.farmacia.dominios;
 
 import com.sun.istack.Nullable;
 

@@ -1,4 +1,4 @@
-package com.farmacia.farmacia.model;
+package com.farmacia.farmacia.dominios;
 
 import javax.persistence.*;
 
@@ -23,8 +23,7 @@ public class PedidoProduto {
         public PedidoProduto() {
         }
 
-        public PedidoProduto(Long idPedidoProduto, Pedido pedido, Produto produto, Integer quantidadePedido) {
-                this.idPedidoProduto = idPedidoProduto;
+        public PedidoProduto(Pedido pedido, Produto produto, Integer quantidadePedido) {
                 this.pedido = pedido;
                 this.produto = produto;
                 this.quantidadePedido = quantidadePedido;
