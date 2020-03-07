@@ -20,6 +20,8 @@ public class PedidoService {
 
     public void save(Pedido pedido, Produto produto, Integer quantidade){
         Pedido pedidoSalvo = pedidoRepository.save(pedido);
+
+        //falta corrigir esta parte..
         PedidoProduto pedidoProduto = new PedidoProduto(pedidoSalvo, produto,quantidade);
         pedidoProdutoRepository.save(pedidoProduto);
     }
